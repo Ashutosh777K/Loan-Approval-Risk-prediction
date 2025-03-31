@@ -49,18 +49,18 @@ Natural Language Processing (NLP) can play a pivotal role in automating loan app
 ## Comparative Analysis
 The comparative analysis of different models highlights their effectiveness in classifying loan applications. The following table summarizes the accuracy, precision, recall, and F1-score of the models tested:
 
-| Model               | Notes/Predictions  |
-|---------------------|------------------|
-| Logistic Regression | High accuracy for TF-IDF, struggles with imbalanced data. |
-| SVM                | Performs well with TF-IDF, sensitive to feature scaling. |
-| Random Forest      | High accuracy, handles imbalanced data better. |
-| CNN                | Strong with word embeddings but overfits on small datasets. |
-| BILSTM             | Slightly better with embeddings, but still weak. |
-| GRU                | Performs similarly to LSTM but slightly better in efficiency. |
-| MLP                | Works well on structured loan data, but lacks deep contextual understanding. |
-| Transformer        | Struggles with small datasets, requires large training data. |
-| BERT               | Predictions: (Rejected, Approved, Rejected) for three input texts. |
-| ROBERTA            | Predictions: (Rejected, Rejected, Approved) for three input texts. |
+| Model              | Accuracy | Precision | Recall | F1 Score |
+|--------------------|----------|-----------|--------|----------|
+| Logistic Regression| 55.0%    | 75.5%     | 50.5%  | 37.6%    |
+| SVM                | 55.1%    | 72.2%     | 50.0%  | 38.1%    |
+| Random Forest      | 54.5%    | 76.3%     | 50.4%  | 37.1%    |
+| CNN                | 53.7%    | 75.1%     | 50.3%  | 37.2%    |
+| BILSTM             | 53.7%    | 77.5%     | 50.8%  | 38.6%    |
+| GRU                | 53.2%    | 77.0%     | 50.2%  | 39.1%    |
+| MLP                | 77.5%    | 79.0%     | 77.0%  | 75.9%    |
+| Transformer        | 53.8%    | 75.5%     | 52.2%  | 87.8%    |
+| BERT               | 90.3%    | 91.1%     | 88.0%  | 89.5%    |
+| ROBERTA            | 93.0%    | 92.5%     | 90.2%  | 90.8%    |
 
 ---
 
