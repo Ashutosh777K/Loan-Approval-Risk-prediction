@@ -53,7 +53,7 @@ The comparative analysis of different models highlights their effectiveness in c
 |--------------------|----------|-----------|--------|----------|
 | Logistic Regression| 55.0%    | 75.5%     | 50.5%  | 37.6%    |
 | SVM                | 55.1%    | 72.2%     | 50.0%  | 38.1%    |
-| Random Forest      | 54.5%    | 76.3%     | 50.4%  | 37.1%    |
+| Random Forest      | 75.5%    | 76.3%     | 72.4%  | 57.1%    |
 | CNN                | 53.7%    | 75.1%     | 50.3%  | 37.2%    |
 | BILSTM             | 53.7%    | 77.5%     | 50.8%  | 38.6%    |
 | GRU                | 53.2%    | 77.0%     | 50.2%  | 39.1%    |
